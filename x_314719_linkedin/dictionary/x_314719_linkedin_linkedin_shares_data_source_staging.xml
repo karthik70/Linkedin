@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Linkedin Shares Data Source " max_length="40" name="x_314719_linkedin_linkedin_shares_data_source_staging" sizeclass="6" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=activity" label="activity" max_length="40" name="u_activity" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=clientApp" label="clientApp" max_length="40" name="u_clientapp" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=content" label="content" max_length="329" name="u_content" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=created" label="created" max_length="62" name="u_created" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=distribution" label="distribution" max_length="58" name="u_distribution" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=edited" label="edited" max_length="40" name="u_edited" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=id" label="id" max_length="40" name="u_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=lastModified" label="lastModified" max_length="53" name="u_lastmodified" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=owner" label="owner" max_length="40" name="u_owner" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=serviceProvider" label="serviceProvider" max_length="40" name="u_serviceprovider" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=text" label="text" max_length="40" name="u_text" type="string"/>
+    </element>
+</database>

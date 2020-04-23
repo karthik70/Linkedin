@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_designer_co_template">
+    <sys_hub_flow_designer_co_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <complex_definition>FD5267f64a40145010cfd7a6ae671e2704</complex_definition>
+        <sys_class_name>sys_hub_flow_designer_co_template</sys_class_name>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 11:54:30</sys_created_on>
+        <sys_id>da673602075450103032f1d08c1ed07b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>share</sys_name>
+        <sys_package display_value="Linkedin" source="x_314719_linkedin">c2d7608e075c10103032f1d08c1ed087</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">c2d7608e075c10103032f1d08c1ed087</sys_scope>
+        <sys_update_name>sys_hub_flow_designer_co_template_da673602075450103032f1d08c1ed07b</sys_update_name>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 11:54:30</sys_updated_on>
+        <template_label>share</template_label>
+        <template_name>share</template_name>
+    </sys_hub_flow_designer_co_template>
+</record_update>

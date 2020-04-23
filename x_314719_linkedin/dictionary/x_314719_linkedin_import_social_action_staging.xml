@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Import Social Action For Data Source" max_length="40" name="x_314719_linkedin_import_social_action_staging" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_comments" label="Comments" max_length="40" name="u_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_likes" label="Likes" max_length="40" name="u_likes" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_share_urn" label="Share urn" max_length="40" name="u_share_urn" type="string"/>
+    </element>
+</database>

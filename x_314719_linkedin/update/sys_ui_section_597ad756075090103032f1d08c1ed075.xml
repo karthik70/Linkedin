@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="597ad756075090103032f1d08c1ed075" sys_domain="global" table="x_314719_linkedin_import_social_action_staging" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-23 09:06:06</sys_created_on>
+            <sys_id>597a9b56075090103032f1d08c1ed08b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_314719_linkedin_import_social_action_staging" sys_domain="global" view="Default view">597ad756075090103032f1d08c1ed075</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-23 09:06:06</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_likes</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-23 09:06:06</sys_created_on>
+            <sys_id>dd7a9b56075090103032f1d08c1ed08b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_314719_linkedin_import_social_action_staging" sys_domain="global" view="Default view">597ad756075090103032f1d08c1ed075</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-23 09:06:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_share_urn</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-23 09:06:06</sys_created_on>
+            <sys_id>517a9b56075090103032f1d08c1ed08c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_314719_linkedin_import_social_action_staging" sys_domain="global" view="Default view">597ad756075090103032f1d08c1ed075</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-23 09:06:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-23 09:06:06</sys_created_on>
+            <sys_id>d17a9b56075090103032f1d08c1ed08c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_314719_linkedin_import_social_action_staging" sys_domain="global" view="Default view">597ad756075090103032f1d08c1ed075</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-23 09:06:06</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comments</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-23 09:06:06</sys_created_on>
+            <sys_id>557a9b56075090103032f1d08c1ed08c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_314719_linkedin_import_social_action_staging" sys_domain="global" view="Default view">597ad756075090103032f1d08c1ed075</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-23 09:06:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-23 09:06:06</sys_created_on>
+            <sys_id>d57a9b56075090103032f1d08c1ed08c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_314719_linkedin_import_social_action_staging" sys_domain="global" view="Default view">597ad756075090103032f1d08c1ed075</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-23 09:06:06</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_314719_linkedin_import_social_action_staging</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-23 09:06:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>597ad756075090103032f1d08c1ed075</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_314719_linkedin_import_social_action_staging</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Linkedin" source="x_314719_linkedin">c2d7608e075c10103032f1d08c1ed087</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Linkedin">c2d7608e075c10103032f1d08c1ed087</sys_scope>
+            <sys_update_name>sys_ui_section_597ad756075090103032f1d08c1ed075</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-23 09:06:06</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

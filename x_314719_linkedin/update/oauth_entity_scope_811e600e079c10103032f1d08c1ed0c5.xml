@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_scope">
+    <oauth_entity_scope action="INSERT_OR_UPDATE">
+        <in_default_profile>true</in_default_profile>
+        <name>rw_organization_admin</name>
+        <oauth_entity display_value="Linkedin ">77aca00e079c10103032f1d08c1ed064</oauth_entity>
+        <oauth_entity_scope>rw_organization_admin</oauth_entity_scope>
+        <sys_class_name>oauth_entity_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-22 01:55:05</sys_created_on>
+        <sys_id>811e600e079c10103032f1d08c1ed0c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rw_organization_admin</sys_name>
+        <sys_package display_value="Linkedin" source="x_314719_linkedin">c2d7608e075c10103032f1d08c1ed087</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">c2d7608e075c10103032f1d08c1ed087</sys_scope>
+        <sys_update_name>oauth_entity_scope_811e600e079c10103032f1d08c1ed0c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 01:55:05</sys_updated_on>
+    </oauth_entity_scope>
+</record_update>

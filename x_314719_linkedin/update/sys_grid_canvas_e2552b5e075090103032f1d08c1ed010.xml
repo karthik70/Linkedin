@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA Linkedin Analytics - New Tab">66552b5e075090103032f1d08c1ed00f</legacy_page>
+        <name>PA Linkedin Analytics - New Tab</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-23 09:53:42</sys_created_on>
+        <sys_id>e2552b5e075090103032f1d08c1ed010</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Linkedin Analytics - New Tab</sys_name>
+        <sys_package display_value="Linkedin" source="x_314719_linkedin">c2d7608e075c10103032f1d08c1ed087</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">c2d7608e075c10103032f1d08c1ed087</sys_scope>
+        <sys_update_name>sys_grid_canvas_e2552b5e075090103032f1d08c1ed010</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-23 09:53:42</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>

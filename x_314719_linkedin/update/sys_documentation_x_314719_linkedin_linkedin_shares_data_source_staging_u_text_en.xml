@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_text" label="text" language="en" table="x_314719_linkedin_linkedin_shares_data_source_staging">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_text</element>
+            <help/>
+            <hint/>
+            <label>text</label>
+            <language>en</language>
+            <name>x_314719_linkedin_linkedin_shares_data_source_staging</name>
+            <plural>texts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-22 14:29:50</sys_created_on>
+            <sys_id>2dfa138a079450103032f1d08c1ed020</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>text</sys_name>
+            <sys_package display_value="Linkedin" source="x_314719_linkedin">c2d7608e075c10103032f1d08c1ed087</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Linkedin">c2d7608e075c10103032f1d08c1ed087</sys_scope>
+            <sys_update_name>sys_documentation_x_314719_linkedin_linkedin_shares_data_source_staging_u_text_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-22 14:29:50</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

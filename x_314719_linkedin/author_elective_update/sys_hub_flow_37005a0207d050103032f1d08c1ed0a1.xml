@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>import_all_share_content_details</internal_name>
+        <label_cache>[{"name":"2992d4f1-4018-45c2-9702-be293c116fe4.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2992d4f1-4018-45c2-9702-be293c116fe4.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"268d6367-3250-4264-ad0c-1ae08337d7f3.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"268d6367-3250-4264-ad0c-1ae08337d7f3.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df07cc2e-2a67-4c01-b9ef-74ca9f4eb139.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df07cc2e-2a67-4c01-b9ef-74ca9f4eb139.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7393cfa8-8b03-4c92-b8e5-ac601a50c35f.comment","label":"3➛Comment","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"2b7585c3-f307-4ceb-9694-540861b7ca3d"}},{"name":"03e3233d-58e4-440e-8857-02f36354482e.likes","label":"2➛Likes","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"f5bc2391-8cb9-477a-af5f-59bf0a71d91f"}},{"name":"03e3233d-58e4-440e-8857-02f36354482e.comments","label":"2➛Comments","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"4b300288-49e8-4eb8-a5c3-ee8d15ffa104"}},{"name":"c391f3e1-31fa-4d93-b98f-b998126f8221.category","label":"1➛Category","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a712940f-7c97-46a6-b4ea-7d5f24877dbc"}},{"name":"c391f3e1-31fa-4d93-b98f-b998126f8221.author","label":"1➛Author","reference_display":"Author","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"cfe1c642-3bba-4b57-b510-f340b6759753"}},{"name":"c391f3e1-31fa-4d93-b98f-b998126f8221.activity","label":"1➛Activity","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"9e42f877-9b76-4882-9d35-f42c53652b7a"}},{"name":"c391f3e1-31fa-4d93-b98f-b998126f8221.time","label":"1➛Time","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"09793a10-d7be-42dc-bd12-ab123f5419dc"}},{"name":"c391f3e1-31fa-4d93-b98f-b998126f8221.title","label":"1➛Title","reference_display":"Title","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"2e9e3cac-7a2e-4a6d-9a80-2cfdf4f739a2"}},{"name":"c391f3e1-31fa-4d93-b98f-b998126f8221.id","label":"1➛ID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"d8ea6d06-ee38-4d29-a5a6-593d2de0b4f6"}},{"name":"35d82858-3619-414b-bf84-d5d2369e43d3.comment","label":"1➛Comment","reference_display":"Comment","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"2b7585c3-f307-4ceb-9694-540861b7ca3d"}},{"name":"c7edc822-3ca9-4c6f-b8ed-6a0fbfa76844.likes","label":"1➛Likes","reference_display":"Likes","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"f5bc2391-8cb9-477a-af5f-59bf0a71d91f"}},{"name":"c7edc822-3ca9-4c6f-b8ed-6a0fbfa76844.comments","label":"1➛Comments","reference_display":"Comments","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"4b300288-49e8-4eb8-a5c3-ee8d15ffa104"}},{"name":"c619294f-fb02-4795-911e-d8fdd614b57c.activity","label":"1➛Activity","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"9e42f877-9b76-4882-9d35-f42c53652b7a"}},{"name":"c619294f-fb02-4795-911e-d8fdd614b57c.time","label":"1➛Time","reference_display":"Time","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"09793a10-d7be-42dc-bd12-ab123f5419dc"}},{"name":"c619294f-fb02-4795-911e-d8fdd614b57c.title","label":"1➛Title","reference_display":"Title","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"2e9e3cac-7a2e-4a6d-9a80-2cfdf4f739a2"}},{"name":"c619294f-fb02-4795-911e-d8fdd614b57c.id","label":"1➛ID","reference_display":"ID","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"d8ea6d06-ee38-4d29-a5a6-593d2de0b4f6"}},{"name":"ee7610c4-6b43-4e88-87ab-ce588d419ec4.likes","label":"2➛Likes","reference_display":"Likes","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"f5bc2391-8cb9-477a-af5f-59bf0a71d91f"}},{"name":"ee7610c4-6b43-4e88-87ab-ce588d419ec4.comments","label":"2➛Comments","reference_display":"Comments","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"4b300288-49e8-4eb8-a5c3-ee8d15ffa104"}},{"name":"62681b09-240f-4e5b-94ef-893d77dcf589.time","label":"2➛Time","reference_display":"Time","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"09793a10-d7be-42dc-bd12-ab123f5419dc"}},{"name":"62681b09-240f-4e5b-94ef-893d77dcf589.title","label":"2➛Title","reference_display":"Title","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"2e9e3cac-7a2e-4a6d-9a80-2cfdf4f739a2"}},{"name":"62681b09-240f-4e5b-94ef-893d77dcf589.id","label":"2➛ID","reference_display":"ID","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"d8ea6d06-ee38-4d29-a5a6-593d2de0b4f6"}},{"name":"c439b71b-57e5-4b3b-936a-1b943901553c.time","label":"1➛Time","reference_display":"Time","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"09793a10-d7be-42dc-bd12-ab123f5419dc"}},{"name":"c439b71b-57e5-4b3b-936a-1b943901553c.title","label":"1➛Title","reference_display":"Title","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"2e9e3cac-7a2e-4a6d-9a80-2cfdf4f739a2"}},{"name":"c439b71b-57e5-4b3b-936a-1b943901553c.id","label":"1➛ID","reference_display":"ID","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"d8ea6d06-ee38-4d29-a5a6-593d2de0b4f6"}},{"name":"697cd66f-c4ee-42c9-a79f-323740e7cdc4.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"697cd66f-c4ee-42c9-a79f-323740e7cdc4.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Import All Share Content Details</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 09:02:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>37005a0207d050103032f1d08c1ed0a1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Import All Share Content Details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Linkedin" source="x_314719_linkedin">c2d7608e075c10103032f1d08c1ed087</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">c2d7608e075c10103032f1d08c1ed087</sys_scope>
+        <sys_update_name>sys_hub_flow_37005a0207d050103032f1d08c1ed0a1</sys_update_name>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 10:33:20</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=37005a0207d050103032f1d08c1ed0a1"/>
+    <sys_variable_value action="DELETE" query="document_key=37005a0207d050103032f1d08c1ed0a1"/>
+    <sys_hub_flow_component action="DELETE" query="flow=37005a0207d050103032f1d08c1ed0a1^sys_idNOT IN2b8a52ca07d050103032f1d08c1ed0c3,638a52ca07d050103032f1d08c1ed0ca,add42682071450103032f1d08c1ed082,af8a52ca07d050103032f1d08c1ed0c6"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Retrieve Total Number of Shares">0961dec207d050103032f1d08c1ed098</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Import All Share Content Details">37005a0207d050103032f1d08c1ed0a1</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 09:48:25</sys_created_on>
+        <sys_id>2b8a52ca07d050103032f1d08c1ed0c3</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Linkedin">c2d7608e075c10103032f1d08c1ed087</sys_scope>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 10:33:20</sys_updated_on>
+        <ui_id>c391f3e1-31fa-4d93-b98f-b998126f8221</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=2b8a52ca07d050103032f1d08c1ed0c3"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Retrieve Comment On A Share">bea012c207d050103032f1d08c1ed06c</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Import All Share Content Details">37005a0207d050103032f1d08c1ed0a1</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 09:48:25</sys_created_on>
+        <sys_id>638a52ca07d050103032f1d08c1ed0ca</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Linkedin">c2d7608e075c10103032f1d08c1ed087</sys_scope>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 10:33:20</sys_updated_on>
+        <ui_id>7393cfa8-8b03-4c92-b8e5-ac601a50c35f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=638a52ca07d050103032f1d08c1ed0ca"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>638a52ca07d050103032f1d08c1ed0ca</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 09:48:25</sys_created_on>
+        <sys_id>e78a52ca07d050103032f1d08c1ed0cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 09:48:25</sys_updated_on>
+        <value/>
+        <variable display_value="">7ea012c207d050103032f1d08c1ed06d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=638a52ca07d050103032f1d08c1ed0ca"/>
+    <sys_element_mapping action="DELETE">
+        <field>shareurn</field>
+        <id>638a52ca07d050103032f1d08c1ed0ca</id>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 09:48:25</sys_created_on>
+        <sys_id>678a52ca07d050103032f1d08c1ed0cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 09:48:25</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bea012c207d050103032f1d08c1ed06c</table>
+        <value>{{c391f3e1-31fa-4d93-b98f-b998126f8221.activity}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Import All Share Content Details">37005a0207d050103032f1d08c1ed0a1</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 10:33:20</sys_created_on>
+        <sys_id>add42682071450103032f1d08c1ed082</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Linkedin">c2d7608e075c10103032f1d08c1ed087</sys_scope>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 10:33:20</sys_updated_on>
+        <ui_id>697cd66f-c4ee-42c9-a79f-323740e7cdc4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=add42682071450103032f1d08c1ed082"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>add42682071450103032f1d08c1ed082</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 10:33:20</sys_created_on>
+        <sys_id>add42682071450103032f1d08c1ed084</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 10:33:20</sys_updated_on>
+        <value>x_314719_linkedin_shares</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=add42682071450103032f1d08c1ed082"/>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>add42682071450103032f1d08c1ed082</id>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 10:33:20</sys_created_on>
+        <sys_id>65d42682071450103032f1d08c1ed084</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 10:33:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>add42682071450103032f1d08c1ed082</id>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 10:33:20</sys_created_on>
+        <sys_id>2dd42682071450103032f1d08c1ed084</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 10:33:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>comments={{7393cfa8-8b03-4c92-b8e5-ac601a50c35f.comment}}^category={{c391f3e1-31fa-4d93-b98f-b998126f8221.category}}^comments_number={{03e3233d-58e4-440e-8857-02f36354482e.comments}}^u_string_7={{03e3233d-58e4-440e-8857-02f36354482e.likes}}^share_id={{c391f3e1-31fa-4d93-b98f-b998126f8221.id}}^share_urn={{c391f3e1-31fa-4d93-b98f-b998126f8221.activity}}^created_time={{c391f3e1-31fa-4d93-b98f-b998126f8221.time}}^=</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Retrieve Total Social Action">c0801e8207d050103032f1d08c1ed084</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Import All Share Content Details">37005a0207d050103032f1d08c1ed0a1</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 09:48:25</sys_created_on>
+        <sys_id>af8a52ca07d050103032f1d08c1ed0c6</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Linkedin">c2d7608e075c10103032f1d08c1ed087</sys_scope>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 10:33:20</sys_updated_on>
+        <ui_id>03e3233d-58e4-440e-8857-02f36354482e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=af8a52ca07d050103032f1d08c1ed0c6"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>af8a52ca07d050103032f1d08c1ed0c6</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 09:48:25</sys_created_on>
+        <sys_id>278a52ca07d050103032f1d08c1ed0c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 09:48:25</sys_updated_on>
+        <value/>
+        <variable display_value="">80801e8207d050103032f1d08c1ed085</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=af8a52ca07d050103032f1d08c1ed0c6"/>
+    <sys_element_mapping action="DELETE">
+        <field>shareurn</field>
+        <id>af8a52ca07d050103032f1d08c1ed0c6</id>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 09:48:25</sys_created_on>
+        <sys_id>a38a52ca07d050103032f1d08c1ed0c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 09:48:25</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c0801e8207d050103032f1d08c1ed084</table>
+        <value>{{c391f3e1-31fa-4d93-b98f-b998126f8221.activity}}</value>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="DELETE" query="flow=37005a0207d050103032f1d08c1ed0a1^sys_idNOT IN178ad28a07d050103032f1d08c1ed02b"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Import All Share Content Details">37005a0207d050103032f1d08c1ed0a1</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 09:48:25</sys_created_on>
+        <sys_id>178ad28a07d050103032f1d08c1ed02b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 10:33:20</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=178ad28a07d050103032f1d08c1ed02b"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>178ad28a07d050103032f1d08c1ed02b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 09:48:25</sys_created_on>
+        <sys_id>e78ad28a07d050103032f1d08c1ed02c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 09:48:25</sys_updated_on>
+        <value>1970-01-01 15:00:00</value>
+        <variable display_value="">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="DELETE" query="id=37005a0207d050103032f1d08c1ed0a1^sys_idNOT INff005a0207d050103032f1d08c1ed0a2"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>37005a0207d050103032f1d08c1ed0a1</id>
+        <name>Import All Share Content Details</name>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 09:02:34</sys_created_on>
+        <sys_id>ff005a0207d050103032f1d08c1ed0a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 09:02:34</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="DELETE" query="flow=37005a0207d050103032f1d08c1ed0a1^sys_idNOT IN2b8a52ca07d050103032f1d08c1ed0c3,638a52ca07d050103032f1d08c1ed0ca,add42682071450103032f1d08c1ed082,af8a52ca07d050103032f1d08c1ed0c6"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Retrieve Total Number of Shares">0961dec207d050103032f1d08c1ed098</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Import All Share Content Details">37005a0207d050103032f1d08c1ed0a1</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 09:48:25</sys_created_on>
+        <sys_id>2b8a52ca07d050103032f1d08c1ed0c3</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Linkedin">c2d7608e075c10103032f1d08c1ed087</sys_scope>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 10:33:20</sys_updated_on>
+        <ui_id>c391f3e1-31fa-4d93-b98f-b998126f8221</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=2b8a52ca07d050103032f1d08c1ed0c3"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Retrieve Comment On A Share">bea012c207d050103032f1d08c1ed06c</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Import All Share Content Details">37005a0207d050103032f1d08c1ed0a1</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 09:48:25</sys_created_on>
+        <sys_id>638a52ca07d050103032f1d08c1ed0ca</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Linkedin">c2d7608e075c10103032f1d08c1ed087</sys_scope>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 10:33:20</sys_updated_on>
+        <ui_id>7393cfa8-8b03-4c92-b8e5-ac601a50c35f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=638a52ca07d050103032f1d08c1ed0ca"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>638a52ca07d050103032f1d08c1ed0ca</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 09:48:25</sys_created_on>
+        <sys_id>e78a52ca07d050103032f1d08c1ed0cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 09:48:25</sys_updated_on>
+        <value/>
+        <variable display_value="">7ea012c207d050103032f1d08c1ed06d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=638a52ca07d050103032f1d08c1ed0ca"/>
+    <sys_element_mapping action="DELETE">
+        <field>shareurn</field>
+        <id>638a52ca07d050103032f1d08c1ed0ca</id>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 09:48:25</sys_created_on>
+        <sys_id>678a52ca07d050103032f1d08c1ed0cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 09:48:25</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bea012c207d050103032f1d08c1ed06c</table>
+        <value>{{c391f3e1-31fa-4d93-b98f-b998126f8221.activity}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Import All Share Content Details">37005a0207d050103032f1d08c1ed0a1</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 10:33:20</sys_created_on>
+        <sys_id>add42682071450103032f1d08c1ed082</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Linkedin">c2d7608e075c10103032f1d08c1ed087</sys_scope>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 10:33:20</sys_updated_on>
+        <ui_id>697cd66f-c4ee-42c9-a79f-323740e7cdc4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=add42682071450103032f1d08c1ed082"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>add42682071450103032f1d08c1ed082</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 10:33:20</sys_created_on>
+        <sys_id>add42682071450103032f1d08c1ed084</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 10:33:20</sys_updated_on>
+        <value>x_314719_linkedin_shares</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=add42682071450103032f1d08c1ed082"/>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>add42682071450103032f1d08c1ed082</id>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 10:33:20</sys_created_on>
+        <sys_id>65d42682071450103032f1d08c1ed084</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 10:33:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>add42682071450103032f1d08c1ed082</id>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 10:33:20</sys_created_on>
+        <sys_id>2dd42682071450103032f1d08c1ed084</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 10:33:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>comments={{7393cfa8-8b03-4c92-b8e5-ac601a50c35f.comment}}^category={{c391f3e1-31fa-4d93-b98f-b998126f8221.category}}^comments_number={{03e3233d-58e4-440e-8857-02f36354482e.comments}}^u_string_7={{03e3233d-58e4-440e-8857-02f36354482e.likes}}^share_id={{c391f3e1-31fa-4d93-b98f-b998126f8221.id}}^share_urn={{c391f3e1-31fa-4d93-b98f-b998126f8221.activity}}^created_time={{c391f3e1-31fa-4d93-b98f-b998126f8221.time}}^=</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Retrieve Total Social Action">c0801e8207d050103032f1d08c1ed084</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Import All Share Content Details">37005a0207d050103032f1d08c1ed0a1</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 09:48:25</sys_created_on>
+        <sys_id>af8a52ca07d050103032f1d08c1ed0c6</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Linkedin">c2d7608e075c10103032f1d08c1ed087</sys_scope>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 10:33:20</sys_updated_on>
+        <ui_id>03e3233d-58e4-440e-8857-02f36354482e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=af8a52ca07d050103032f1d08c1ed0c6"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>af8a52ca07d050103032f1d08c1ed0c6</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 09:48:25</sys_created_on>
+        <sys_id>278a52ca07d050103032f1d08c1ed0c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 09:48:25</sys_updated_on>
+        <value/>
+        <variable display_value="">80801e8207d050103032f1d08c1ed085</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=af8a52ca07d050103032f1d08c1ed0c6"/>
+    <sys_element_mapping action="DELETE">
+        <field>shareurn</field>
+        <id>af8a52ca07d050103032f1d08c1ed0c6</id>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 09:48:25</sys_created_on>
+        <sys_id>a38a52ca07d050103032f1d08c1ed0c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 09:48:25</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c0801e8207d050103032f1d08c1ed084</table>
+        <value>{{c391f3e1-31fa-4d93-b98f-b998126f8221.activity}}</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Linkedin">c2d7608e075c10103032f1d08c1ed087</application>
+        <file_path/>
+        <instance_id>a4812709db5b4894f492c5970596198b</instance_id>
+        <instance_name>dev101755</instance_name>
+        <name>sys_hub_flow_37005a0207d050103032f1d08c1ed0a1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description/><internal_name>import_all_share_content_details</internal_name><label_cache>[{"name":"2992d4f1-4018-45c2-9702-be293c116fe4.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2992d4f1-4018-45c2-9702-be293c116fe4.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"268d6367-3250-4264-ad0c-1ae08337d7f3.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"268d6367-3250-4264-ad0c-1ae08337d7f3.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df07cc2e-2a67-4c01-b9ef-74ca9f4eb139.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df07cc2e-2a67-4c01-b9ef-74ca9f4eb139.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7393cfa8-8b03-4c92-b8e5-ac601a50c35f.comment","label":"3➛Comment","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"2b7585c3-f307-4ceb-9694-540861b7ca3d"}},{"name":"03e3233d-58e4-440e-8857-02f36354482e.likes","label":"2➛Likes","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"f5bc2391-8cb9-477a-af5f-59bf0a71d91f"}},{"name":"03e3233d-58e4-440e-8857-02f36354482e.comments","label":"2➛Comments","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"4b300288-49e8-4eb8-a5c3-ee8d15ffa104"}},{"name":"c391f3e1-31fa-4d93-b98f-b998126f8221.category","label":"1➛Category","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a712940f-7c97-46a6-b4ea-7d5f24877dbc"}},{"name":"c391f3e1-31fa-4d93-b98f-b998126f8221.author","label":"1➛Author","reference_display":"Author","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"cfe1c642-3bba-4b57-b510-f340b6759753"}},{"name":"c391f3e1-31fa-4d93-b98f-b998126f8221.activity","label":"1➛Activity","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"9e42f877-9b76-4882-9d35-f42c53652b7a"}},{"name":"c391f3e1-31fa-4d93-b98f-b998126f8221.time","label":"1➛Time","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"09793a10-d7be-42dc-bd12-ab123f5419dc"}},{"name":"c391f3e1-31fa-4d93-b98f-b998126f8221.title","label":"1➛Title","reference_display":"Title","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"2e9e3cac-7a2e-4a6d-9a80-2cfdf4f739a2"}},{"name":"c391f3e1-31fa-4d93-b98f-b998126f8221.id","label":"1➛ID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"d8ea6d06-ee38-4d29-a5a6-593d2de0b4f6"}},{"name":"35d82858-3619-414b-bf84-d5d2369e43d3.comment","label":"1➛Comment","reference_display":"Comment","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"2b7585c3-f307-4ceb-9694-540861b7ca3d"}},{"name":"c7edc822-3ca9-4c6f-b8ed-6a0fbfa76844.likes","label":"1➛Likes","reference_display":"Likes","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"f5bc2391-8cb9-477a-af5f-59bf0a71d91f"}},{"name":"c7edc822-3ca9-4c6f-b8ed-6a0fbfa76844.comments","label":"1➛Comments","reference_display":"Comments","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"4b300288-49e8-4eb8-a5c3-ee8d15ffa104"}},{"name":"c619294f-fb02-4795-911e-d8fdd614b57c.activity","label":"1➛Activity","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"9e42f877-9b76-4882-9d35-f42c53652b7a"}},{"name":"c619294f-fb02-4795-911e-d8fdd614b57c.time","label":"1➛Time","reference_display":"Time","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"09793a10-d7be-42dc-bd12-ab123f5419dc"}},{"name":"c619294f-fb02-4795-911e-d8fdd614b57c.title","label":"1➛Title","reference_display":"Title","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"2e9e3cac-7a2e-4a6d-9a80-2cfdf4f739a2"}},{"name":"c619294f-fb02-4795-911e-d8fdd614b57c.id","label":"1➛ID","reference_display":"ID","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"d8ea6d06-ee38-4d29-a5a6-593d2de0b4f6"}},{"name":"ee7610c4-6b43-4e88-87ab-ce588d419ec4.likes","label":"2➛Likes","reference_display":"Likes","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"f5bc2391-8cb9-477a-af5f-59bf0a71d91f"}},{"name":"ee7610c4-6b43-4e88-87ab-ce588d419ec4.comments","label":"2➛Comments","reference_display":"Comments","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"4b300288-49e8-4eb8-a5c3-ee8d15ffa104"}},{"name":"62681b09-240f-4e5b-94ef-893d77dcf589.time","label":"2➛Time","reference_display":"Time","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"09793a10-d7be-42dc-bd12-ab123f5419dc"}},{"name":"62681b09-240f-4e5b-94ef-893d77dcf589.title","label":"2➛Title","reference_display":"Title","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"2e9e3cac-7a2e-4a6d-9a80-2cfdf4f739a2"}},{"name":"62681b09-240f-4e5b-94ef-893d77dcf589.id","label":"2➛ID","reference_display":"ID","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"d8ea6d06-ee38-4d29-a5a6-593d2de0b4f6"}},{"name":"c439b71b-57e5-4b3b-936a-1b943901553c.time","label":"1➛Time","reference_display":"Time","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"09793a10-d7be-42dc-bd12-ab123f5419dc"}},{"name":"c439b71b-57e5-4b3b-936a-1b943901553c.title","label":"1➛Title","reference_display":"Title","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"2e9e3cac-7a2e-4a6d-9a80-2cfdf4f739a2"}},{"name":"c439b71b-57e5-4b3b-936a-1b943901553c.id","label":"1➛ID","reference_display":"ID","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"d8ea6d06-ee38-4d29-a5a6-593d2de0b4f6"}},{"name":"697cd66f-c4ee-42c9-a79f-323740e7cdc4.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"697cd66f-c4ee-42c9-a79f-323740e7cdc4.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache><latest_snapshot/><master_snapshot/><name>Import All Share Content Details</name><natlang/><outputs/><remote_trigger_id/><run_as>user</run_as><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 09:02:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>37005a0207d050103032f1d08c1ed0a1</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Import All Share Content Details</sys_name><sys_overrides/><sys_package display_value="Linkedin" source="x_314719_linkedin">c2d7608e075c10103032f1d08c1ed087</sys_package><sys_policy/><sys_scope display_value="Linkedin">c2d7608e075c10103032f1d08c1ed087</sys_scope><sys_update_name>sys_hub_flow_37005a0207d050103032f1d08c1ed0a1</sys_update_name><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 10:33:20</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=37005a0207d050103032f1d08c1ed0a1"/><sys_variable_value action="delete_multiple" query="document_key=37005a0207d050103032f1d08c1ed0a1"/><sys_hub_flow_component action="delete_multiple" query="flow=37005a0207d050103032f1d08c1ed0a1^sys_idNOT IN2b8a52ca07d050103032f1d08c1ed0c3,638a52ca07d050103032f1d08c1ed0ca,add42682071450103032f1d08c1ed082,af8a52ca07d050103032f1d08c1ed0c6"/><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_type display_value="Retrieve Total Number of Shares">0961dec207d050103032f1d08c1ed098</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Import All Share Content Details">37005a0207d050103032f1d08c1ed0a1</flow><order>1</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 09:48:25</sys_created_on><sys_id>2b8a52ca07d050103032f1d08c1ed0c3</sys_id><sys_mod_count>8</sys_mod_count><sys_scope display_value="Linkedin">c2d7608e075c10103032f1d08c1ed087</sys_scope><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 10:33:20</sys_updated_on><ui_id>c391f3e1-31fa-4d93-b98f-b998126f8221</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=2b8a52ca07d050103032f1d08c1ed0c3"/><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Retrieve Comment On A Share">bea012c207d050103032f1d08c1ed06c</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Import All Share Content Details">37005a0207d050103032f1d08c1ed0a1</flow><order>3</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 09:48:25</sys_created_on><sys_id>638a52ca07d050103032f1d08c1ed0ca</sys_id><sys_mod_count>8</sys_mod_count><sys_scope display_value="Linkedin">c2d7608e075c10103032f1d08c1ed087</sys_scope><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 10:33:20</sys_updated_on><ui_id>7393cfa8-8b03-4c92-b8e5-ac601a50c35f</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=638a52ca07d050103032f1d08c1ed0ca"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>638a52ca07d050103032f1d08c1ed0ca</document_key><order>1</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 09:48:25</sys_created_on><sys_id>e78a52ca07d050103032f1d08c1ed0cb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 09:48:25</sys_updated_on><value/><variable display_value="">7ea012c207d050103032f1d08c1ed06d</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=638a52ca07d050103032f1d08c1ed0ca"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>shareurn</field><id>638a52ca07d050103032f1d08c1ed0ca</id><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 09:48:25</sys_created_on><sys_id>678a52ca07d050103032f1d08c1ed0cb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 09:48:25</sys_updated_on><table>var__m_sys_hub_action_input_bea012c207d050103032f1d08c1ed06c</table><value>{{c391f3e1-31fa-4d93-b98f-b998126f8221.activity}}</value></sys_element_mapping><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Import All Share Content Details">37005a0207d050103032f1d08c1ed0a1</flow><order>4</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 10:33:20</sys_created_on><sys_id>add42682071450103032f1d08c1ed082</sys_id><sys_mod_count>2</sys_mod_count><sys_scope display_value="Linkedin">c2d7608e075c10103032f1d08c1ed087</sys_scope><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 10:33:20</sys_updated_on><ui_id>697cd66f-c4ee-42c9-a79f-323740e7cdc4</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=add42682071450103032f1d08c1ed082"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>add42682071450103032f1d08c1ed082</document_key><order>0</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 10:33:20</sys_created_on><sys_id>add42682071450103032f1d08c1ed084</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 10:33:20</sys_updated_on><value>x_314719_linkedin_shares</value><variable display_value="">61e05916c31332002841b63b12d3aee4</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=add42682071450103032f1d08c1ed082"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>table_name</field><id>add42682071450103032f1d08c1ed082</id><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 10:33:20</sys_created_on><sys_id>65d42682071450103032f1d08c1ed084</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 10:33:20</sys_updated_on><table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>values</field><id>add42682071450103032f1d08c1ed082</id><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 10:33:20</sys_created_on><sys_id>2dd42682071450103032f1d08c1ed084</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 10:33:20</sys_updated_on><table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table><value>comments={{7393cfa8-8b03-4c92-b8e5-ac601a50c35f.comment}}^category={{c391f3e1-31fa-4d93-b98f-b998126f8221.category}}^comments_number={{03e3233d-58e4-440e-8857-02f36354482e.comments}}^u_string_7={{03e3233d-58e4-440e-8857-02f36354482e.likes}}^share_id={{c391f3e1-31fa-4d93-b98f-b998126f8221.id}}^share_urn={{c391f3e1-31fa-4d93-b98f-b998126f8221.activity}}^created_time={{c391f3e1-31fa-4d93-b98f-b998126f8221.time}}^=</value></sys_element_mapping><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Retrieve Total Social Action">c0801e8207d050103032f1d08c1ed084</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Import All Share Content Details">37005a0207d050103032f1d08c1ed0a1</flow><order>2</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 09:48:25</sys_created_on><sys_id>af8a52ca07d050103032f1d08c1ed0c6</sys_id><sys_mod_count>8</sys_mod_count><sys_scope display_value="Linkedin">c2d7608e075c10103032f1d08c1ed087</sys_scope><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 10:33:20</sys_updated_on><ui_id>03e3233d-58e4-440e-8857-02f36354482e</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=af8a52ca07d050103032f1d08c1ed0c6"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>af8a52ca07d050103032f1d08c1ed0c6</document_key><order>1</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 09:48:25</sys_created_on><sys_id>278a52ca07d050103032f1d08c1ed0c8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 09:48:25</sys_updated_on><value/><variable display_value="">80801e8207d050103032f1d08c1ed085</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=af8a52ca07d050103032f1d08c1ed0c6"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>shareurn</field><id>af8a52ca07d050103032f1d08c1ed0c6</id><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 09:48:25</sys_created_on><sys_id>a38a52ca07d050103032f1d08c1ed0c8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 09:48:25</sys_updated_on><table>var__m_sys_hub_action_input_c0801e8207d050103032f1d08c1ed084</table><value>{{c391f3e1-31fa-4d93-b98f-b998126f8221.activity}}</value></sys_element_mapping><sys_hub_trigger_instance action="delete_multiple" query="flow=37005a0207d050103032f1d08c1ed0a1^sys_idNOT IN178ad28a07d050103032f1d08c1ed02b"/><sys_hub_trigger_instance action="INSERT_OR_UPDATE"><comment/><display_text/><flow display_value="Import All Share Content Details">37005a0207d050103032f1d08c1ed0a1</flow><name>Daily</name><remote_sys_id/><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 09:48:25</sys_created_on><sys_id>178ad28a07d050103032f1d08c1ed02b</sys_id><sys_mod_count>4</sys_mod_count><sys_scope/><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 10:33:20</sys_updated_on><trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition><trigger_inputs/><trigger_outputs/><trigger_type>daily</trigger_type></sys_hub_trigger_instance><sys_variable_value action="delete_multiple" query="document_key=178ad28a07d050103032f1d08c1ed02b"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_trigger_instance</document><document_key>178ad28a07d050103032f1d08c1ed02b</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 09:48:25</sys_created_on><sys_id>e78ad28a07d050103032f1d08c1ed02c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 09:48:25</sys_updated_on><value>1970-01-01 15:00:00</value><variable display_value="">3ad4edc0c32222002841b63b12d3aee5</variable></sys_variable_value><sys_flow_cat_variable_model action="delete_multiple" query="id=37005a0207d050103032f1d08c1ed0a1^sys_idNOT INff005a0207d050103032f1d08c1ed0a2"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>37005a0207d050103032f1d08c1ed0a1</id><name>Import All Share Content Details</name><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 09:02:34</sys_created_on><sys_id>ff005a0207d050103032f1d08c1ed0a2</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 09:02:34</sys_updated_on></sys_flow_cat_variable_model><sys_hub_action_instance action="delete_multiple" query="flow=37005a0207d050103032f1d08c1ed0a1^sys_idNOT IN2b8a52ca07d050103032f1d08c1ed0c3,638a52ca07d050103032f1d08c1ed0ca,add42682071450103032f1d08c1ed082,af8a52ca07d050103032f1d08c1ed0c6"/><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_type display_value="Retrieve Total Number of Shares">0961dec207d050103032f1d08c1ed098</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Import All Share Content Details">37005a0207d050103032f1d08c1ed0a1</flow><order>1</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 09:48:25</sys_created_on><sys_id>2b8a52ca07d050103032f1d08c1ed0c3</sys_id><sys_mod_count>8</sys_mod_count><sys_scope display_value="Linkedin">c2d7608e075c10103032f1d08c1ed087</sys_scope><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 10:33:20</sys_updated_on><ui_id>c391f3e1-31fa-4d93-b98f-b998126f8221</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=2b8a52ca07d050103032f1d08c1ed0c3"/><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Retrieve Comment On A Share">bea012c207d050103032f1d08c1ed06c</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Import All Share Content Details">37005a0207d050103032f1d08c1ed0a1</flow><order>3</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 09:48:25</sys_created_on><sys_id>638a52ca07d050103032f1d08c1ed0ca</sys_id><sys_mod_count>8</sys_mod_count><sys_scope display_value="Linkedin">c2d7608e075c10103032f1d08c1ed087</sys_scope><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 10:33:20</sys_updated_on><ui_id>7393cfa8-8b03-4c92-b8e5-ac601a50c35f</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=638a52ca07d050103032f1d08c1ed0ca"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>638a52ca07d050103032f1d08c1ed0ca</document_key><order>1</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 09:48:25</sys_created_on><sys_id>e78a52ca07d050103032f1d08c1ed0cb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 09:48:25</sys_updated_on><value/><variable display_value="">7ea012c207d050103032f1d08c1ed06d</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=638a52ca07d050103032f1d08c1ed0ca"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>shareurn</field><id>638a52ca07d050103032f1d08c1ed0ca</id><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 09:48:25</sys_created_on><sys_id>678a52ca07d050103032f1d08c1ed0cb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 09:48:25</sys_updated_on><table>var__m_sys_hub_action_input_bea012c207d050103032f1d08c1ed06c</table><value>{{c391f3e1-31fa-4d93-b98f-b998126f8221.activity}}</value></sys_element_mapping><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Import All Share Content Details">37005a0207d050103032f1d08c1ed0a1</flow><order>4</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 10:33:20</sys_created_on><sys_id>add42682071450103032f1d08c1ed082</sys_id><sys_mod_count>2</sys_mod_count><sys_scope display_value="Linkedin">c2d7608e075c10103032f1d08c1ed087</sys_scope><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 10:33:20</sys_updated_on><ui_id>697cd66f-c4ee-42c9-a79f-323740e7cdc4</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=add42682071450103032f1d08c1ed082"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>add42682071450103032f1d08c1ed082</document_key><order>0</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 10:33:20</sys_created_on><sys_id>add42682071450103032f1d08c1ed084</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 10:33:20</sys_updated_on><value>x_314719_linkedin_shares</value><variable display_value="">61e05916c31332002841b63b12d3aee4</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=add42682071450103032f1d08c1ed082"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>table_name</field><id>add42682071450103032f1d08c1ed082</id><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 10:33:20</sys_created_on><sys_id>65d42682071450103032f1d08c1ed084</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 10:33:20</sys_updated_on><table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>values</field><id>add42682071450103032f1d08c1ed082</id><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 10:33:20</sys_created_on><sys_id>2dd42682071450103032f1d08c1ed084</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 10:33:20</sys_updated_on><table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table><value>comments={{7393cfa8-8b03-4c92-b8e5-ac601a50c35f.comment}}^category={{c391f3e1-31fa-4d93-b98f-b998126f8221.category}}^comments_number={{03e3233d-58e4-440e-8857-02f36354482e.comments}}^u_string_7={{03e3233d-58e4-440e-8857-02f36354482e.likes}}^share_id={{c391f3e1-31fa-4d93-b98f-b998126f8221.id}}^share_urn={{c391f3e1-31fa-4d93-b98f-b998126f8221.activity}}^created_time={{c391f3e1-31fa-4d93-b98f-b998126f8221.time}}^=</value></sys_element_mapping><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Retrieve Total Social Action">c0801e8207d050103032f1d08c1ed084</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Import All Share Content Details">37005a0207d050103032f1d08c1ed0a1</flow><order>2</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 09:48:25</sys_created_on><sys_id>af8a52ca07d050103032f1d08c1ed0c6</sys_id><sys_mod_count>8</sys_mod_count><sys_scope display_value="Linkedin">c2d7608e075c10103032f1d08c1ed087</sys_scope><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 10:33:20</sys_updated_on><ui_id>03e3233d-58e4-440e-8857-02f36354482e</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=af8a52ca07d050103032f1d08c1ed0c6"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>af8a52ca07d050103032f1d08c1ed0c6</document_key><order>1</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 09:48:25</sys_created_on><sys_id>278a52ca07d050103032f1d08c1ed0c8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 09:48:25</sys_updated_on><value/><variable display_value="">80801e8207d050103032f1d08c1ed085</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=af8a52ca07d050103032f1d08c1ed0c6"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>shareurn</field><id>af8a52ca07d050103032f1d08c1ed0c6</id><sys_created_by>Admin</sys_created_by><sys_created_on>2020-04-22 09:48:25</sys_created_on><sys_id>a38a52ca07d050103032f1d08c1ed0c8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Admin</sys_updated_by><sys_updated_on>2020-04-22 09:48:25</sys_updated_on><table>var__m_sys_hub_action_input_c0801e8207d050103032f1d08c1ed084</table><value>{{c391f3e1-31fa-4d93-b98f-b998126f8221.activity}}</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-1142390536</payload_hash>
+        <record_name>Import All Share Content Details</record_name>
+        <reverted_from/>
+        <source>86d7ac0a079c10103032f1d08c1ed097</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 10:33:21</sys_created_on>
+        <sys_id>a9d42682071450103032f1d08c1ed09e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171a173028a0000001</sys_recorded_at>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 10:33:21</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>e1d4268248145010760a902902d3079e</update_guid>
+        <update_guid_history>e1d4268248145010760a902902d3079e:-1142390536,0454ae4275145010b7e98674008ea288:-179407031,83e02ace77d050108494f62c258d7f07:-1718710640,738a92caa4d05010c1db7d3e3cd73d04:-219206130,33005a02c5d05010f6a4b97091f025a7:-1696396132</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Admin</sys_created_by>
+        <sys_created_on>2020-04-22 13:48:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>16e806900adb40e0b1a9cedbb6d30824</sys_id>
+        <sys_metadata>37005a0207d050103032f1d08c1ed0a1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Import All Share Content Details</sys_name>
+        <sys_package display_value="Linkedin" source="x_314719_linkedin">c2d7608e075c10103032f1d08c1ed087</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">c2d7608e075c10103032f1d08c1ed087</sys_scope>
+        <sys_scope_delete display_value="">328a18677bbe43e89cfab0a930e75f90</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_37005a0207d050103032f1d08c1ed0a1</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_37005a0207d050103032f1d08c1ed0a1">a9d42682071450103032f1d08c1ed09e</sys_update_version>
+        <sys_updated_by>Admin</sys_updated_by>
+        <sys_updated_on>2020-04-22 13:48:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
